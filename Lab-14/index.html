@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html ng-app="catdogApp">
+<head>
+    <title>Lab 14 | Modules and Routing</title>
+</head>
+<body>
+    <nav>
+        <a href="#/cat"><h3>Would you like to see a cat? Click Here!</h3></a>
+        <a href="#/dog"><h3>Would you like to see a dog? Click Here!</h3></a>
+    </nav>
+    <div ng-view="">
+      <h1>Awwww!</h1>
+      <img src="http://www.forza10usa.com/wp-content/uploads/2015/12/dog-and-cat-1.jpg" />
+    </div>
+
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-route.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
