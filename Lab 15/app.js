@@ -1,3 +1,13 @@
+/*controllers for views*/
+app.controller('formController', function($scope){
+
+});
+
+app.controller('viewController', function($scope){
+
+});
+
+/*routing for views*/
 (function() {
 var madlibModule = angular.module("madlibApp", ["ngRoute"]);
 
